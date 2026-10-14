@@ -1,5 +1,5 @@
-import puppeteer from 'puppeteer';
-import { fork } from 'child_process';
+const puppeteer = require('puppeteer');
+const { fork } = require('child_process');
 
 jest.setTimeout(30000);
 
